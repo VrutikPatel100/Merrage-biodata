@@ -213,7 +213,7 @@ function downloadBiodata() {
   Age                :  23 Years
   Height             :  5 Feet 5 Inches
   Religion           :  Hindu
-  Caste              :  Patel (Leuva)
+  Caste              :  Patel (Kadva patel)
   Mother Tongue      :  Gujarati
   Marital Status     :  Unmarried
 
@@ -329,7 +329,7 @@ export default function App() {
               ["Age",       "23 Years"],
               ["Height",    "5 Feet 5 Inches"],
               ["Religion",  <><strong>Hindu</strong></>],
-              ["Caste",     "Patidar (Leuva)"],
+              ["Caste",     "Patidar (Kadva patel)"],
               ["Marital",   "Unmarried"],
               // ["Language",  "Gujarati · Hindi · English"],
             ].map(([l,v])=>(
@@ -379,8 +379,8 @@ export default function App() {
               {[
                 ["Father",        "Patel Vijaybhai Narsinhbhai"],
                 ["Father's Occ.", "Teacher (Government)"],
-                ["Mother",        "Patel Chetna Ben"],
-                ["Mother's Occ.", "Home Maker"],
+                ["Mother",        "Patel ChetnaBen"],
+                ["Mother's Occ.", "House Wife"],
                 ["Siblings",      "1 Sister"],
                 ["Sister",        "Pursuing BVSc — Veterinary Doctor"],
               ].map(([l,v])=>(
@@ -397,7 +397,8 @@ export default function App() {
                 ["Family Type",  "Traditional · Well-Settled"],
                 ["Values",       "Religious, Educated, Progressive"],
                 ["Native Place", "Himatnagar, Sabarkantha, Gujarat"],
-                ["Community",    "Leuva Patidar Samaj"],
+                ["Community",    "Kadva Patidar Samaj"],
+                ["Village" , "Berna (Himatnagar)"],
                 // ["About",        "A warm, culturally rich family that values traditions while embracing modern education and values."],
               ].map(([l,v])=>(
                 <div className="drow" key={l}>
