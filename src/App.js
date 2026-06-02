@@ -297,7 +297,7 @@ export default function App() {
           <div className="divider-line"/>
         </div>
         <div className="pills afu d4">
-          {["Age: 23","Height: 5′5″","Hindu · Patidar (Leuva)","Himatnagar, Gujarat"].map(t=>(
+          {["Age: 23","Height: 5′5″","Hindu · Patidar (Kadva Patel)","Himatnagar, Gujarat"].map(t=>(
             <span className="pill" key={t}>{t}</span>
           ))}
         </div>
